@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Muhammad Hammad ur Rehman</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">
+                            <i class='bx bx-home nav_icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link"> <!-- Fixed href -->
+                            <i class='bx bx-book nav_icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase-alt nav_icon'></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i>Certificates
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#references" class="nav_link">
+                            <i class='bx bx-link-external nav_icon'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle" aria-expanded="false">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="./img/myimg.jpg" alt="Image of Muhammad Hammad ur Rehman" class="home_img">
+                            <h1 class="home_title">Muhammad <b>Hammad ur Rehman</b></h1>
+                            <h3 class="home_profession">Web Developer and Graphic Designer</h3>
+                        </div>
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i>New Kumharwara, Street no. 03, Near RS#525, Lyari,
+                                Karachi, Sindh, Pakistan.
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon'></i>hammadurrehman7707@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon'></i>0318-0123954
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    <!-- <div>
+              <a download="" href="" class="home_button-movil">Download</a>  
+            </div> -->
+                </section>
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">
+                        SOCIAL
+                    </h2>
+                    <div class="social_continer bd-grid">
+                        <a href="https://pk.linkedin.com/in/mhammadurrehman?trk=public_post_feed-actor-name"
+                            target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin-square social_icon'></i>@mhammadurrehman
+                        </a>
+                        <a href="" target="_blank" class="social_link">
+                            <i class='bx bxl-facebook social_icon'></i>@mhammadurrehman
+                        </a>
+                        <a href="" target="_blank" class="social_link">
+                            <i class='bx bxl-instagram social_icon'></i>@m.hammadurrehman2006
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile_description">
+                        I am a skilled graphic designer and Next.js developer with a strong background in creating
+                        visually engaging designs and building responsive, high-performance websites. I combine
+                        creativity with technical expertise to deliver intuitive, user-focused digital solutions.
+                        Passionate about staying up-to-date with industry trends, I'm dedicated to producing innovative
+                        work that meets client needs and exceeds expectations.</p>
+
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">
+                        Education
+                    </h2>
+                    <div class="education_container bd-grid">
+
+                        <!-- First Education Entry: B.E Electronics -->
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">B.E Electronics</h3>
+                                <span class="education_studies">NED University of Engineering and Technology.</span>
+                                <span class="education_year">2024-2028</span>
+                            </div>
+                        </div>
+
+                        <!-- Second Education Entry: Intermediate (Computer Sci) -->
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Intermediate (Computer Sci)</h3>
+                                <span class="education_studies">Nusrat Bhutto Govt. Deg. Boys College Lyari</span>
+                                <span class="education_year">2022-2024</span>
+                            </div>
+                        </div>
+
+                        <!-- Third Education Entry: Matriculation -->
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Matriculation</h3>
+                                <span class="education_studies">Bahria College</span>
+                                <span class="education_year">Till 2022</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="resume__right">
+ <!--========== SKILLS  ==========-->
+ <section class="skills section" id="skills">
+     <h2 class="section-title" id="skills">Skills</h2>
+     <div class="skills_content bd-grid">
+     
+         <ul class="skills_data">
+             <li class="skills_name">
+                 <span class="skills_circle"></span> HTML5
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> CSS3
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> JavaScript and TypeScript
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> Next.js
+                </li>
+            </ul>
+             <ul class="skills_data">
+             <li class="skills_name">
+                 <span class="skills_circle"></span> Python
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> C/C++
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> Figma
+             </li>
+             <li class="skills_name">
+                 <span class="skills_circle"></span> Adobe Illustrator and Photoshop
+             </li>
+         </ul>
+                                    </div>
+                
+                
+                                </section>
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section_title">
+                        Experience
+                    </h2>
+                    <p>to be added...</p>
+                    <!-- <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">MASTER OF DESIGN</h3>
+                                <span class="experience_company">From 2013 to 2015 | Tech Soft</span>
+                                <p class="experience_description"></p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section_title">Certificates</h2>
+                    <div class="certificate_container bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">Google Soft Skills Certificate</h3>
+                            <p class="certificate_description">
+                                Completed the Google Curated Soft Skills Program organized by Google and PAFLA, focusing on mastering essential skills in communication, personal branding, critical thinking, and time management. Developed practical strategies for enhancing interpersonal interactions, boosting professional presence, and improving decision-making and productivity in the workplace.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section_title">Languages</h2>
+                    <ul class="languages_content bd-grid">
+                        <li class="languages_name">
+                            <span class="languages_circle"></span>English
+                        </li>
+                        <li class="languages_name">
+                            <span class="languages_circle"></span>Urdu
+                        </li>
+                        <li class="languages_name">
+                            <span class="languages_circle"></span>Turkish
+                        </li>
+                    </ul>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section_title">Interests</h2>
+                    <div class="interests_container bd-grid">
+                        <div class="interests_contnet">
+                            <i class='bx bx-book interests_icon'></i>
+                            <span class="interests_name">Books Reading</span>
+                        </div>
+                        <div class="interests_contnet">
+                            <i class='bx bxs-plane-alt interests_icon' ></i>
+                            <span class="interests_name">Travelling</span>
+                        </div>
+                        <div class="interests_contnet">
+                            <i class='bx bx-dumbbell interests_icon' ></i>
+                            <span class="interests_name">Fitness</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class='bx bx-terminal interests_icon'></i>
+                            <span class="interests_name">Programming</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class='bx bx-leaf interests_icon'></i>
+                            <span class="interests_name">Gardening</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="" class="scrolltop" id="scroll-top"><i class='bx bx-up-arrow-alt scrolltop_icon'></i></a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
