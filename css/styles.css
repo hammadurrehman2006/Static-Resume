@@ -157,10 +157,10 @@ font-size: 1rem;
 .scale-cv .experience_data{
 gap: .25rem;
 }
-.scale-cv.skills_name{
+.scale-cv .skills_name{
   margin-bottom: var(--mb-1);
 }
-.scale-cv.interests_container{
+.scale-cv .interests_container{
   column-gap: 2.5rem;
 }
 body {
@@ -214,6 +214,7 @@ img {
   letter-spacing: .35rem;
   text-align: center;
   margin-bottom: var(--mb-3);
+  cursor:pointer;
 }
 
 /*========== LAYOUT ==========*/
@@ -607,4 +608,13 @@ img {
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
   }
+}
+ /* Class to hide the section details */
+ .hidden-content {
+  display: none;
+}
+
+/* Class to change title color when section is hidden */
+.title-hidden {
+  color: #888; /* Adjust to your preferred color */
 }
